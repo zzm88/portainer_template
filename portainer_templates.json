@@ -12,7 +12,7 @@
 			"logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrZfChMhp1Ga34FBgfHhyg73VKQ4mO-z__qw&usqp=CAU",
 			"image":"vimagick/tinyproxy",
 			"ports":[
-				"8888/tcp"
+				"8888:8888/tcp"
 			],
 			"volumes":[
 				{
