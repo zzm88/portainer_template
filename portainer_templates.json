@@ -3,6 +3,26 @@
 	"templates":[
 		{
 			"type":1,
+			"title":"tinyproxy",
+			"description":"tinyproxy",
+			"categories":[
+				"docker"
+			],
+			"platform":"linux",
+			"logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrZfChMhp1Ga34FBgfHhyg73VKQ4mO-z__qw&usqp=CAU",
+			"image":"vimagick/tinyproxy",
+			"ports":[
+				"8888/tcp"
+			],
+			"volumes":[
+				{
+					"container":"/root/tinyproxy/",
+					"bind":"/etc/tinyproxy/"
+				}
+			]
+		},	
+		{
+			"type":1,
 			"title":"Registry",
 			"description":"Docker image registry",
 			"categories":[
