@@ -13,7 +13,7 @@
 			"image":"vimagick/tinyproxy",
 			"ports":[
 				
-				"8888/tcp",
+				"8888/tcp"
 			],
 			"volumes":[
 				{
